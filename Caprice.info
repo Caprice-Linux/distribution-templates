@@ -1,0 +1,14 @@
+ChangelogURI: http://packages.capricelinux.org/
+
+Suite: stable
+RepositoryType: deb
+BaseURI: http://repo.flossir.org/caprice/
+MatchURI: (kali\.download|(archive.*|http)\.kali\.org)
+MirrorsFile: Caprice.mirrors
+Description: Caprice 'stable'
+Component: main
+CompDescription: Officially supported
+Component: contrib
+CompDescription: DFSG-compatible Software with Non-Free Dependencies
+Component: non-free
+CompDescription: Non-DFSG-compatible Software
